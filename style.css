@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  background-image: url(https://www.veeforu.com/wp-content/uploads/2022/09/Blue-fog-texture-png-background-full-hd-1080p-download.-1024x576.jpg);
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #77b0de;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    margin: 20px 0;
+  }
+  
+  button {
+    background-color: #222b42;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  button:hover {
+    background-color: #ea3915;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  .image-wrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  img {
+    max-width: 100%;
+    max-height: 400px;
+    border: 5px solid #ddd;
+    border-radius: 8px;
+    transition: filter 0.3s ease;
+  }
+.uploadedImage{
+    background-color: #d76ce7;
+    border:1px solid black;
+}
+  
